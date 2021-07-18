@@ -15,9 +15,8 @@ html {
 }
 
 body {
-    background-color: var(--background-color);
+    background-image: linear-gradient(90deg, #050939 0%, #141A61 47.57%, #050939 93.19%);
     color: var(--white-color);
-    margin: 0 30px;
 
     font-family: 'Open Sans', 'Lato', sans-serif;
     font-size: 1.25rem;
@@ -25,6 +24,7 @@ body {
 
 header {
     height: 10vh;
+    padding-left: 30px;
 }
 
 header img {
@@ -34,13 +34,12 @@ header img {
 .container {
     display: flex;
     padding-top: 15px;
-    padding-left: 25px;
+    padding-left: 50px;
     height: 100vh;
     width: 100%;
 }
 
 .container footer {
-    /* align-self: flex-end; */
     width: 100%;
     justify-content: center;
 }
@@ -100,17 +99,16 @@ button {
     justify-content: space-between;
     align-items: center;
 
+    background-image: url('https://idec.org.br/sites/default/files/idec_na_imprensas/black-friday-sign-picture-id1141559950.jpg');
+    background-size: 50px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
     padding-top: 15px;
     padding-left: 25px;
     height: 100vh;
     width: 100%;
 }
-
-/* .second-container section {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-} */
 
 .second-container div {
     padding: 35px 0;
@@ -141,7 +139,9 @@ form input {
 }
 
 .email {
-    opacity: .3;
+    background-color: #03152e;
+    border-color: #020a13;
+    color: var(--white-color);
     padding-left: 20px;
     width: 30%;
 }
