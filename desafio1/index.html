@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
-  <title>CODING DEVS</title>
+  <title>Coding Devs</title>
 </head>
 <body>
     <header>
@@ -19,7 +19,7 @@
             <p class="title">Aprenda a programar do zero e esteja preparado pro mercado de trabalho!</p>
             <p>Estude as tecnologias mais requisitadas do mercado e passe para o próximo nível.</p>
             <div>
-                <button>Quero aprender!</button>
+                <input onclick="location.href='#email'" type="button" value="Quero aprender!" class="button">
                 <img src="assets/blackfriday.png" alt="Black friday label">
             </div>
         </section>
@@ -33,8 +33,8 @@
                 <p class="second-title">Cadastre o seu melhor e-mail para receber nossas melhores ofertas do Black Friday.</p>
                 <p>Quem estiver em nossa lista de transmissão receberá os descontos do curso em primeira mão.</p>
             </div>
-            <form action="">
-                <input type="text" placeholder="Seu e-mail" class="email">
+            <form id="form">
+                <input type="text" placeholder="Seu e-mail" id="email">
                 <input type="submit" value="Cadastrar">
             </form>
         </section>
@@ -44,5 +44,5 @@
     </div>
     
 </body>
-<!-- <script src="js/script.js"></script> -->
+<script src="js/script.js"></script>
 </html>
